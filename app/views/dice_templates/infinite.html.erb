@@ -2,8 +2,9 @@
 
 <h1> 
   <%= @num_dice%>d<%= @num_sides%>
-<h1>
+</h1>
 
+<div>
 <ul>
   <% @array_of_rolls.each do |a_roll| %>
     <li>
@@ -11,3 +12,4 @@
     </li>
   <% end %>
 </ul>
+</div>
